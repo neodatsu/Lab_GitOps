@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(du:*)",
+      "Bash(for:*)",
+      "Bash(do du -sh \"$d\")",
+      "Bash(done)",
+      "Bash(diskutil apfs list:*)",
+      "Bash(diskutil list:*)",
+      "Bash(xcrun simctl runtime list:*)",
+      "Bash(sudo xcrun simctl runtime delete:*)",
+      "Bash(sudo du:*)",
+      "Bash(diskutil info:*)",
+      "Bash(tmutil listlocalsnapshots:*)",
+      "Bash(tmutil listlocalsnapshotdates:*)",
+      "Bash(diskutil apfs listSnapshots:*)",
+      "Bash(# Recalculate: what does APFS actually report? echo \"\"=== APFS Container total ===\"\" diskutil apfs list)",
+      "Read(//Users/**)",
+      "Bash(# Users was 27 GB before, now shows 37 GB? Let''s check du -sh /Users/*/)",
+      "Bash(# Ollama models du -sh /Users/lferrer/.ollama/*/)",
+      "Bash(# VS Code extensions du -sh /Users/lferrer/.vscode/*/)",
+      "Bash(# VS Code: top 10 biggest extensions for d in /Users/lferrer/.vscode/extensions/*/; do du -sh \"\"$d\"\" ; done)",
+      "Bash(ollama rm:*)"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+__pycache__/
+
+# Build artifacts
+*.o
+*.out
+dist/
+build/
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+kubeconfig*
