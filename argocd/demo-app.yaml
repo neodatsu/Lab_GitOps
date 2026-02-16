@@ -6,8 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    # TODO: replace with your actual repo URL after git init + push
-    repoURL: https://github.com/<YOUR_USER>/Lab_GitOps.git
+    repoURL: https://github.com/neodatsu/Lab_GitOps.git
     targetRevision: main
     path: apps/demo
   destination:
